@@ -391,7 +391,8 @@
 
 					for (var i = 0, length = data.length; i < length; i++) {
 						var file = data[i];
-
+            alert(file.width);
+            alert(file.height);
 						if (file.width && file.height)
 							push.push('![' + file.filename + '](' + file.url + ')');
 						else
