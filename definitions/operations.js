@@ -23,7 +23,7 @@ NEWOPERATION('users.load', function(error, value, callback) {
 
 			!user.lastmessages && (user.lastmessages = {});
 			!user.blacklist && (user.blacklist = {});
-			!user.theme && (user.theme = 'dark');
+			!user.theme && (user.theme = 'blue');
 
 			// Cleaner for unhandled assignment
 			delete user.recent[''];
